@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">
+                    Juan Segundo
+                </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://i.gyazo.com/b7e8023a57d683e84a9a3c3efb9fcd12.jpg" alt="profile picture">
+            </div>
+            <h1>JUAN SEGUNDO AGUERRE</h1>
+            <h2>Desarrollador de Software - Programador Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Juan Segundo.</span> Soy un estudiante de desarrollo de software de segundo año y desarrollador full stack ya recibido. Mi objetivo principal es poder adquirir todo tipo de conocimientos mientras estudio y trabajo.
+            Soy una persona muy carismática y tengo una rápida capacidad de aprendizaje y adaptación a nuevos ambientes laborales.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            11-05-2002
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 11 33690090
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            juanseaguerre@gmail.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            FREELANCE
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LEER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-handshake"></i>
+                            <span>COLABORAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>APRENDER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="Curriculum Vitae Juan Segundo Schmid Aguerre.pdf" download style="text-decoration: none;color: #fff ;">
+                    Descargar CV
+                </a><i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CURRICULUM-->
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnicatura en Desarrollo de Software</h4>
+                        <span class="casa">UADE</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div> 
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Diplomatura Desarrollo web Full Stack</h4>
+                        <span class="casa">UADE</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Aprendizaje de tecnologias front-end y back-end</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Wordpress developer</h4>
+                        <span class="casa">Comercio Electronico</span>
+                        <span class="fecha"></span>
+                        <p>Diseño y desarrollo de una pagina web orientada al comercio electronico.</p>
+                        <br/>
+                        <p>Creación de una landing page.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div> 
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>E-Mail Marketing</h4>
+                        <span class="casa">Comercio Electronico</span>
+                        <span class="fecha"></span>
+                        <p>Diseño y desarrollo de un mail programado con HTML y CSS para un comercio electronico orientado a la moda.</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="https://i.gyazo.com/4f354262d803cb6fc1770939b12aacb9.png" alt="MmcdMotoshop">
+                    <a href="https://mmcdmotoshop.net">
+                        <div class="overlay" >
+                            <h3 style="color: #fff;">Desarrollo y diseño de web</h3>
+                            <p style="color: #fff;">Wordpress</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+                <div class="col">
+                    <form action="https://formsubmit.co/5b8dc259156dfcf020d699084afaec8d" method="POST">
+                        <input type="text" required name="name" placeholder="Nombre">
+                        <input type="text" required name="numero" placeholder="Número telefónico">
+                        <input type="text" required name="email" placeholder="Dirección de correo">
+                        <input type="text" required name="asunto" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" name="message" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                        <input type="hidden" name="_next" value="https://jsaguerre.com">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+                <!--MAPA-->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Capital federal
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                +54 11 3369-0090
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: juanseaguerre@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
